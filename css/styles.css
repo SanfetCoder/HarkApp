@@ -1,6 +1,19 @@
 #title {
   background-color: #ff4c68;
   color: white;
+  height: 50rem;
+}
+
+.title-image-box {
+  position: relative;
+}
+
+.title-circle {
+  position: absolute;
+  color: white;
+  font-size: 10rem;
+  top: 15rem;
+  right: 28rem;
 }
 
 body {
@@ -74,6 +87,7 @@ h4 {
 /* Title Image */
 
 .title-image {
+  position: absolute;
   width: 70%;
   margin: 0 0 0 0;
   text-align: left;
