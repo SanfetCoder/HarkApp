@@ -1,19 +1,6 @@
 #title {
   background-color: #ff4c68;
   color: white;
-  height: 50rem;
-}
-
-.title-image-box {
-  position: relative;
-}
-
-.title-circle {
-  position: absolute;
-  color: white;
-  font-size: 10rem;
-  top: 15rem;
-  right: 28rem;
 }
 
 body {
@@ -29,13 +16,15 @@ h1 {
 }
 
 h2 {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 600;
-  text-shadow: 2px 2px #ff0000;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
+
 .container-fluid {
-  padding: 3% 10%;
+  padding: 3% 15% 7%;
 }
 
 h3 {
@@ -87,19 +76,29 @@ h4 {
 /* Title Image */
 
 .title-image {
+  width: 35%;
   position: absolute;
-  width: 70%;
-  margin: 0 0 0 0;
-  text-align: left;
+  right: 20%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  width: 85%;
 }
 
 /* Row Feature */
-.row-feature {
-  margin: 8rem 0;
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
 .center-col {
   text-align: center;
+  padding: 5%;
 }
 
 .feature-icon {
@@ -108,11 +107,78 @@ h4 {
   color: #ef8172;
 }
 
-.fa-solid:hover {
+.feature-icon:hover {
   color: #ff4c68;
 }
 
-.description {
-  color: #8f8f8f;
-  width: 60%;
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.pricing-column {
+ text-align: center;
+ padding: 3% 2%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.card-header {
+  padding: 0;
+  margin: 0;
+  border-radius: 25px;
+}
+
+.card-heading {
+  color: #fff;
+  background-color: #ff4c68;
+  padding: 4% 15%;
+  margin: 0;
+
+}
+
+.pricing-heading {
+  color: #ff4c68;
+}
+
+.pricing-button {
+  background-color: #ff4c68;
+  border-width: 0;
+}
+
+.pricing-outline-button {
+  border-color: #ff4c68;
+  border-width: 2px;
+}
+
+.pricing-outline-button:hover {
+  background-color: #ff4c68;
+  border-width: 0;
 }
